@@ -17,8 +17,8 @@ get_header(); ?>
 //modified
 ?>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+	<div id="primary" class="aboutMe content-area">
+		<main id="main" class="site-main mainAbout" role="main">
 
 		<?php if ( have_posts() == true ) : ?>
 
@@ -52,7 +52,7 @@ get_header(); ?>
 			<?php query_posts('category_name=class-notes,lectures'); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-					<div style="z-index:2;" id="post-<?php the_ID(); ?>" class="dt-portfolio-item"> 
+					<div style="z-index:2;" id="post-<?php the_ID(); ?>" class="dt-portfolio-item mainAbout"> 
 						<h2> <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 							<?php the_title(); ?>
 						
@@ -65,7 +65,7 @@ get_header(); ?>
 								$x = 1;
 								while ($x <= $bucketSize ){
 									if ($x == 1){
-										echo $x." apple";
+										echo $x." pika";
 										echo "<br>";
 									} else {
 										echo $x." apples";

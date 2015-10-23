@@ -17,7 +17,7 @@ get_header(); ?>
 //modified
 ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary aboutMe" class="content-area">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() == true ) : ?>

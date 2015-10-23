@@ -937,3 +937,13 @@ object {
 
 }
 
+.aboutMe{
+
+	background-color: #8428BD;
+}
+
+.mainAbout{
+
+	position: relative;
+	text-align: center;
+}
