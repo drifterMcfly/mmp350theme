@@ -24,22 +24,15 @@
 
 
 
-<div class="pikachu">
+<div id="mmaHeader">
+	<div id="menu">
+		<p class="menuText">Menu</p>
+	</div>
 
-	Here is some info about this blog:
+	<div id="logo"></div>
+	
 
-	<?php
-	echo "pikachu";
-	?>
-
-	<?php
-
-
-		bloginfo('description');
-		echo '<br>';
-		bloginfo('name');
-	?>
-
+</div>
 
 </div>
 <div id="page" class="hfeed site">

@@ -60,12 +60,22 @@ get_header(); ?>
 						
 						<?php the_excerpt(); ?>
 
-						
-						
-
-
-	
-
+						<?php
+						function appleCounter($bucketSize){
+								$x = 1;
+								while ($x <= $bucketSize ){
+									if ($x == 1){
+										echo $x." apple";
+										echo "<br>";
+									} else {
+										echo $x." apples";
+										echo "<br>";
+									}	
+									$x ++;
+								} 
+						}
+						appleCounter(11);
+						?>
 
 						<?php the_post_thumbnail(); ?>
 					

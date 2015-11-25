@@ -151,6 +151,13 @@ function customFooter(){
 
 }
 
+function haha(){
+	for ($i=0; $i <10 ; $i++) { 
+		echo '<div class ="haha">';
+		bloginfo('description');
+		echo '</div>';	}
+};
+
 
 
 /**
