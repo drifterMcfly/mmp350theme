@@ -134,29 +134,14 @@ add_action( 'wp_enqueue_scripts', 'simple_scripts' );
 
 
 
-function customSidebar(){
-		echo '<div class = "customSidebar">';
-		echo "Sidebar Goes Here";;
-		echo '</div>';
+//function customSidebar(){
+//		echo '<div class = "customSidebar">';
+//		echo "Sidebar Goes Here";;
+//		echo '</div>';
 		
 
-}
+//}
 
-function customFooter(){
-		for ($i=0; $i < 5; $i++) { 
-		echo '<div class = "customFooter">';
-		bloginfo('name');
-		echo '</div>';
-	}	
-
-}
-
-function haha(){
-	for ($i=0; $i <10 ; $i++) { 
-		echo '<div class ="haha">';
-		bloginfo('description');
-		echo '</div>';	}
-};
 
 
 
@@ -184,3 +169,10 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+function code(){
+
+wp_enqueue_script("jquery");
+
+
+};

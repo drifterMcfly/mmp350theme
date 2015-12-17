@@ -25,11 +25,10 @@
 
 
 <div id="mmaHeader">
-	<div id="menu">
-		<p class="menuText">Menu</p>
-	</div>
 
-	<div id="logo"></div>
+	<div id="logo">
+	<p id="logoText">Multimedia Arts</p>
+	</div>
 	
 
 </div>

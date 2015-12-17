@@ -61,11 +61,14 @@ get_header(); ?>
 						<?php the_excerpt(); ?>
 
 						
-	<? haha(); ?>
-<div class="haha">
+	<? customFooter(); ?>
+<div class="customFooter">
 
-	
+	This is my Footer
 
+	<?php
+	echo "Footer";
+	?>
 
 						<?php the_post_thumbnail(); ?>
 					

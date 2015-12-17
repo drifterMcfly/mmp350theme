@@ -51,11 +51,6 @@ html {
 	font-family: sans-serif;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust:     100%;
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
 }
 
 body {
@@ -119,9 +114,7 @@ dfn {
 
 h1 {
 	font-size: 2em;
-	color: #C7C649;
-
-	
+	margin: 0.67em 0;
 }
 
 mark {
@@ -285,6 +278,7 @@ textarea {
 	line-height: 1.5;
 }
 
+h1,
 h2,
 h3,
 h4,
@@ -414,12 +408,7 @@ dd {
 
 img {
 	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 10%; /* Adhere to container width. */
-	float: left;
-	position: relative;
-	clear: left;
-	left: 400px;
-
+	max-width: 100%; /* Adhere to container width. */
 }
 
 table {
@@ -535,6 +524,7 @@ a:active {
 .main-navigation {
 	clear: both;
 	display: block;
+	float: left;
 	width: 100%;
 }
 
@@ -546,7 +536,7 @@ a:active {
 }
 
 .main-navigation li {
-	text-align: center;
+	float: left;
 	position: relative;
 }
 
@@ -901,122 +891,14 @@ object {
 
 
 /*edits*/
-#mmaHeader{
 
-	width: 100%;
-	height: 100px;
-	background-color: #000;
-	position: relative;
-	top: 0px;
-}
+.pikachu{
+	font-family: arial;
+	font-size: 40px;
+	color: yellow;
+	background: 10px 10px 10px #666;
 
-
-
-#logoText{
-	font-size: 4em;
-	font-family: baskerville;
-	position: relative;
-	color: #ffffff;
-	text-align: center;
-}
-
-
-#page{
-	width: 100%;
-	text-align: center;
-}
-
-
-.dt-important-post{
-	position: relative;
-	margin: 0 auto;
-	height: 200px;
-	width: 200px;
-	text-align: center;
-
-}
-
-.menu{
-	position: relative;
-	top:40px;
-	left: -50px;
-	width: 400px;
-	z-index: 1000;
-}
-
-
-.menu li{
-
-	font-size: 2em;
-	font-family: baskerville;
-	color: #A099CA;
-}
-a:link{
-
-	color: #A099CA;
-}
-
-a:visited{
-
-	color: #a099ca;
-}
-
-
-a:hover{
-
-	background-color:#87C8D4;
-
-}
-
-
-.myThumb{
-height: 30%;
-width: 30%;
-left: 0px;
 
 
 }
-
-
-#primary{
-	background-color: #666;
-	padding-top: 20px;
-	width: 100%
-
-}
-
-
-#modalImage{
-	left: 0px;
-	top: 15px;
-}
-
-.row{
-	position: relative;
-	left: 370px;
-	width: 900px;
-	height: 340px;
-}
-
-.custom{
-	background-color: rgba(160, 153, 202, .6);
-	position: relative;
-	top: -640px;
-	color: #fff;
-	font-family: baskerville;
-}
-
-#content{
-	position: relative;
-	top: -80px;
-}
-
-.felix-posts{
-
-	position: relative;
-	top: 20px;
-
-}
-
-
 
